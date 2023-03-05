@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
+
+.feat1 h4, .feat1 p, .feat2 h4, .feat2 p, .feat3 h4, .feat3 p, .newsletter-section, .footer-section, .hero-section, .counter-section, .counter-content, .blog-section, .container{
+    font-family: 'Nunito', sans-serif!important;
+}
+a{
+    text-decoration: none;
+}
+.site-logo img{
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+}
+.logo_title{
+   
+    height: 1.5rem!important;
+    width: auto!important;
+}
+.hs-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem!important;
+}
+.greenbk{
+    background-color: rgb(7, 87, 44)!important;
+}
+.site-logo1 img{
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+}
+.site-logo{
+    text-decoration: none;
+    color: #c4142c;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.site-logo1{
+    text-decoration: none;
+    color: #c4142c;
+    
+}
+.site-logo:hover{
+    text-decoration: none;
+    color: #c4142c;
+}
+.hero-section{
+    background-image: url("../img/bground.jpg")!important;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-cont{
+    background-image: url("../img/bground.jpg")!important;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+.head-cont h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.hs-des{
+    text-transform: uppercase;
+}
+.big-icon, .big-icon img{
+    background-color: transparent!important;
+}
+.counter-content s{
+    color: #444;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+}
+.counter-content span{
+    background-color: #c4142c;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+.greenbk .counter-content span{
+    background-color: #e0e014;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.site-btn{
+    color: #c4142c;
+    background-color: #fff;
+    border: 1px solid #c4142c;
+}
+.site-btn a{
+    color: #c4142c;
+}
+.greenbk .site-btn{
+    color: rgb(7, 87, 44);
+    background-color: #fff;
+    border: 1px solid rgb(7, 87, 44);
+}
+.greenbk .site-btn a{
+    color: rgb(7, 87, 44);
+}
+
+.col-lg-8 p{
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+}
+.section-title h3{
+    margin-top: 1rem;
+}
+.features{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    flex-direction: row;
+}
+.feat1, .feat2{
+    padding-right: 2.5rem;
+    border-right: 1px solid #ccc;
+}
+.features i{
+    font-size: 2.5rem;
+    text-align: center;
+    align-items: center;
+    color: #c4142c;
+    padding: 1.2rem;
+}
+.hero-section{
+    padding-top: 2rem;
+}
+.head-cont p{
+    color: #fff;
+}
+.col-head{
+    display: grid;
+    grid-template-columns: 55% 40%;
+    gap: 2rem;
+}
+.frm{
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+}
+.form_group label{
+    color: rgb(194, 193, 193);
+}
+.form_group input[type=text], .form_group input[type=email]{
+    width: 100%;
+    margin-bottom: 2px;
+}
+.btn-submit{
+    background-color: #444;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    border: 0;
+    color: #fff;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    float: right;
+    transition: 0.5s ease-in-out all;
+    text-decoration: none;
+}
+.btn-submit:hover{
+    background-color: #c4142c;
+    color: #fff;
+}
+.col-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 0.2rem;
+    width: auto;
+    margin-bottom: 2.5rem;
+}
+.colt{
+    padding: 0.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+.colt a{
+    text-decoration: none;
+    color:#444;
+}
+.active_cu{
+
+    color: #fff;
+    
+    background-color:#c4142c!important;
+}
+.active_cu a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.orderReview{
+    padding: 1rem;
+    background-color: rgb(246, 246, 246);
+}
+.orderReview h5{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px!important;
+    margin-bottom: 1rem;
+}
+.orderReview p{
+    margin-bottom: 2rem;
+    color: #444;
+}
+.counter-content{
+    padding-left: 0!important;
+    margin-left: 0!important;
+}
+.orderReview table tr{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.orderReview table td{
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+}
+.orderReview .rightItem{
+    float: right;
+}
+.head-cont h1{
+    letter-spacing: 3px;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+}
+.pay-col{
+    margin-bottom: 3rem;
+}
+.pay-col h5{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-bottom: 1.5rem;
+}
+
+.pay-col input[type=text]{
+    width: 80%;
+    padding: 5px;
+    border-right: none;
+    border: 1px solid #444;
+}
+.btn-pay{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding: 6px;
+    background-color: #444;
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+@media only screen and (max-width: 600px){
+    .features{
+        display: block;
+        align-items: center;
+        gap: 4rem;
+        flex-direction: column;
+    }
+    .feat1, .feat2{
+        padding-right: 0;
+        border-right: 0px;
+    }
+    .col-head{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-top{
+        margin-top: 3rem;
+    }
+    .colt{
+        padding: 0.5rem;
+
+        letter-spacing: 1.5px;
+
+    }
+    .frm{
+        padding: 0.5rem;
+        display: flex;
+        flex-direction:column;
+        gap: 1rem;
+    }
+}
